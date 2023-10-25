@@ -4,54 +4,77 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.container {
+header {
     display: flex;
     background-color: #3a3e3d;
-}
-
-.column {
-    flex: 1;
     padding: 20px;
-    color: white;
-}
-
-.column-one {
-    background-color: #3a3e3d;
-    display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo-container {
     align-self: flex-start;
 }
 
-.navigation-list {
+.logo-container-TopList ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    justify-content: flex-end;
 }
 
-.navigation-list li {
-    margin-bottom: 10px;
+.logo-container-TopList li {
+    margin-left: 10px; /* Adjust the spacing as needed */
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3a3e3d;
+    width: 100%;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+}
+
+.column-one {
+    width: 20%;
+    background-color: #3a3e3d;
 }
 
 .column-two {
+    width: 75%;
     background-color: #00c9e7;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
 }
 
 .hero-section {
-    background-color: #00c9e7;
-    padding: 20px;
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    height: 500px;
+    padding: 10px;
+}
+
+.text-section {
+    flex: 1;
+    padding: 10px;
+    background-color: #00c9e7;
+    color: white;
+}
+
+.image-section {
+    flex: 1;
+    padding: 10px;
 }
 
 h1 {
-    color: white;
     margin: 0;
 }
 
@@ -60,8 +83,7 @@ p {
 }
 
 img {
-    align-self: flex-end;
-    height: 100%;
+    max-width: 100%;
 }
 
 footer {
@@ -75,4 +97,37 @@ button {
     border: none;
     padding: 10px 20px;
     border-radius: 25px;
+}
+
+.paragraph-section {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.paragraph-section p {
+    background-color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+.footer-content {
+    padding: 20px;
+}
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.footer-list li {
+    margin: 5px 0;
+}
+.topLogoSection {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
 }
