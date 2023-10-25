@@ -12,8 +12,15 @@ header {
     justify-content: space-between;
 }
 
+.topLogoSection {
+    display: inline;
+}
+
 .logo-container {
     align-self: flex-start;
+    padding-top: 20px;
+       padding-bottom: 0px;
+    padding-left: 20px;
 }
 
 .logo-container-TopList ul {
@@ -24,7 +31,7 @@ header {
 }
 
 .logo-container-TopList li {
-    margin-left: 10px; /* Adjust the spacing as needed */
+    margin-right: 10px; /* Adjust the spacing as needed */
 }
 
 
@@ -37,18 +44,17 @@ nav ul {
 
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #3a3e3d;
     width: 100%;
 }
 
 .column {
-    flex: 1;
     padding: 20px;
 }
 
 .column-one {
-    width: 20%;
+    column-width: 25%;
     background-color: #3a3e3d;
 }
 
@@ -124,10 +130,4 @@ button {
 
 .footer-list li {
     margin: 5px 0;
-}
-.topLogoSection {
-    display: flex;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
 }
