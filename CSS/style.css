@@ -66,24 +66,29 @@ nav ul {
 .column-two {
     width: 75%;
     background-color: #00c9e7;
-    outline: 1px solid red;
+   /* outline: 1px solid red;*/
 }
 
 .hero-section {
     display: flex;
-    padding: 10px;
+
 }
 
 .text-section {
   /*  flex: 1; */
-    padding: 10px;
+  padding-top: 30px;  
+  padding-left: 
+20px;
     background-color: #00c9e7;
     color: white;
+    
 }
 
 .image-section {
   /*  flex: 1; */
-    padding: 10px;
+    
+    margin-bottom: -3px;
+    margin-top: -15px;
 }
 
 h1 {
@@ -111,12 +116,13 @@ button {
     border: none;
     padding: 10px 20px;
     border-radius: 25px;
+    margin-top: 10px;
 }
 
 .paragraph-section {
     background-color: white;
-   display: flex;
-    justify-content: space-between;
+ /*   display: flex;
+    justify-content: space-between;*/
     padding: 20px;
 }
 
@@ -127,8 +133,11 @@ button {
 }
 
 .footer-content {
+    display: flex;
     padding: 20px;
-    align-items: center;
+    flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-list {
