@@ -5,11 +5,11 @@ body {
 }
 
 header {
-    display: flex;
-    background-color: #3a3e3d;
+   /* display: flex; */
+  /*  background-color: #3a3e3d; */
     padding: 20px;
     align-items: center;
-    justify-content: space-between;
+   /* justify-content: space-between;*/
 }
 
 .topLogoSection {
@@ -21,6 +21,7 @@ header {
     padding-top: 20px;
        padding-bottom: 0px;
     padding-left: 20px;
+    
 }
 
 .logo-container-TopList ul {
@@ -31,36 +32,41 @@ header {
 }
 
 .logo-container-TopList li {
-    margin-right: 10px; /* Adjust the spacing as needed */
+    margin-right: 10px; 
 }
 
 
 nav ul {
     list-style: none;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
+    padding: 20px;
+  /*  display: flex;
+    flex-direction: column; */
 }
 
 .container {
-    display: flex;
-    justify-content: space-around;
-    background-color: #3a3e3d;
-    width: 100%;
+   display: flex;
+ /*   justify-content: space-around; */
+    color: white;
+  background-color: #3a3e3d;
+     width: 100%;
+   
+    
 }
 
 .column {
-    padding: 20px;
+    padding: 0px;
 }
 
 .column-one {
-    column-width: 25%;
-    background-color: #3a3e3d;
+    width: 25%;
+  /* background-color: #3a3e3d; */
+    padding-left:   0px;
 }
 
 .column-two {
     width: 75%;
     background-color: #00c9e7;
+    outline: 1px solid red;
 }
 
 .hero-section {
@@ -69,14 +75,14 @@ nav ul {
 }
 
 .text-section {
-    flex: 1;
+  /*  flex: 1; */
     padding: 10px;
     background-color: #00c9e7;
     color: white;
 }
 
 .image-section {
-    flex: 1;
+  /*  flex: 1; */
     padding: 10px;
 }
 
@@ -93,8 +99,10 @@ img {
 }
 
 footer {
-    background-color: #00c9e7;
+    background-color: #00c9e7; 
     text-align: center;
+  
+    
 }
 
 button {
@@ -107,7 +115,7 @@ button {
 
 .paragraph-section {
     background-color: white;
-    display: flex;
+   display: flex;
     justify-content: space-between;
     padding: 20px;
 }
@@ -120,12 +128,13 @@ button {
 
 .footer-content {
     padding: 20px;
+    align-items: center;
 }
 
 .footer-list {
     list-style: none;
     padding: 0;
-    text-align: left;
+    text-align: center;
 }
 
 .footer-list li {
